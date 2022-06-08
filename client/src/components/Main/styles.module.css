@@ -7,6 +7,9 @@
 	justify-content: space-between;
 
 }
+.navbar a{
+	text-decoration: none;
+}
 .navbar h1 {
 	color: white;
 	font-size: 25px;

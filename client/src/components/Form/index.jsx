@@ -54,7 +54,7 @@ const Form = () => {
     return (
         <div className={styles.con}>
             <nav className={styles.navbar}>
-                <a href="#" onClick={handleMain}><h1>MoviesWeb</h1></a>
+                <a href="#" onClick={handleMain}><h1>Projekt</h1></a>
                 <div className={StyleSheet.navbar_buttons}>
                     <button className={styles.white_btn} onClick={handleForm}>
                         Formularz
