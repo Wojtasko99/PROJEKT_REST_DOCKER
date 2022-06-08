@@ -39,7 +39,7 @@ const Form = () => {
         try {
             const url = "http://localhost:8080/api/forms"
             const { data: res } = await axios.post(url, data)
-            window.location.reload()
+            handleReset()
             console.log(res.message)
         } catch (error) {
             if (
@@ -65,7 +65,7 @@ const Form = () => {
                 </div>
             </nav>
             <div className={styles.main_container}>
-                <form className={styles.form_container}
+                <form id="form" className={styles.form_container}
                     onSubmit={handleSubmit}>
                     <h1>Wypełnij formularz</h1>
                     <div className={styles.text}>What is your gender?</div>
@@ -156,10 +156,13 @@ const Form = () => {
                             className={styles.green_btn}>
                             Send
                         </button>
-                        <button onClick={handleReset}
-                            className={styles.red_btn}>
+                        <button type="reset"
+                            className={styles.red_btn
+                            }
+                            onClick={handleReset}>
                             Reset
                         </button>
+            
                     </div>
                 </form>
                 
