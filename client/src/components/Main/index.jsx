@@ -12,7 +12,11 @@ const Main = () => {
                     Logout
                 </button>
             </nav>
+            <div>
+                <h1>MARIO KRÓL</h1>
+            </div>
         </div>
+
     )
 }
 export default Main
