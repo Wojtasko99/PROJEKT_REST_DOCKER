@@ -5,6 +5,8 @@ const cors = require('cors')
 const connection = require('./db')
 const userRoutes = require("./routes/users")
 const authRoutes = require("./routes/auth")
+const fromRoutes = require("./routes/forms")
+
 //middleware
 app.use(express.json())
 app.use(cors())
@@ -13,3 +15,4 @@ app.listen(port, () => console.log(`Nasłuchiwanie na porcie ${port}`))
 connection()
 app.use("/api/users", userRoutes)
 app.use("/api/auth", authRoutes)
+app.use("/api/forms", fromRoutes)

@@ -5,14 +5,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-}
 
+}
 .navbar h1 {
 	color: white;
 	font-size: 25px;
 	margin-left: 20px;
+	width: 20%;
 }
-
+.navbar_buttons{
+	width: 80%;
+	justify-content: right;
+}
 .white_btn {
 	border: none;
 	outline: none;
