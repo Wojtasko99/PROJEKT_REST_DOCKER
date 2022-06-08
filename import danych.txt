@@ -1,0 +1,1 @@
+mongoimport --db projekt --collection form --type csv --file C:\Users\Wojtas\Desktop\nowe_dane.csv --headerline
