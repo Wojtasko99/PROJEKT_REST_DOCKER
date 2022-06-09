@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import DataTable from './data-table';
 import styles from "./styles.module.css"
-
+import { Table } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const handleLogout = () => {
     localStorage.removeItem("token")
     window.location.reload()
@@ -45,42 +46,43 @@ export default class Users extends Component {
 
     render() {
         return (
-            
-            
+
+
             <div className="wrapper-users">
                 <nav className={styles.navbar}>
-                <a href="#" onClick={handleMain}><h1>Projekt</h1></a>
-                <div className={StyleSheet.navbar_buttons}>
-                    <button className={styles.white_btn} onClick={handleForm}>
-                        Formularz
-                    </button>
-                    <button className={styles.white_btn} onClick={handleExport}>
-                        Export JSON
-                    </button>
-                    <button className={styles.white_btn} onClick={handleLogout}>
-                        Logout
-                    </button>
-                    
-                </div>
-            </nav>
+                    <a href="#" onClick={handleMain}><h1>Projekt</h1></a>
+                    <div className={StyleSheet.navbar_buttons}>
+                        <button className={styles.white_btn} onClick={handleForm}>
+                            Formularz
+                        </button>
+                        <button className={styles.white_btn} onClick={handleExport}>
+                            Export JSON
+                        </button>
+                        <button className={styles.white_btn} onClick={handleLogout}>
+                            Logout
+                        </button>
+
+                    </div>
+                </nav>
                 <div className="container">
-                    <table className="table">
+                    <Table striped bordered hover size="sm">
                         <thead className="thead-dark">
                             <tr>
-                                <td>Sex</td>
-                                <td>Age</td>
-                                <td>Region</td>
-                                <td>Degree</td>
-                                <td>Major</td>
-                                <td>Current role</td>
-                                <td>Industry</td>
-                                <td>Programming Language</td>
+                                <th>#</th>
+                                <th>Sex</th>
+                                <th>Age</th>
+                                <th>Region</th>
+                                <th>Degree</th>
+                                <th>Major</th>
+                                <th>Current role</th>
+                                <th>Industry</th>
+                                <th>Programming Language</th>
                             </tr>
                         </thead>
                         <tbody>
                             {this.dataTable()}
                         </tbody>
-                    </table>
+                    </Table>
                 </div>
             </div>
         )

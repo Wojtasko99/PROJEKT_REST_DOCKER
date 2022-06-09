@@ -1,0 +1,11 @@
+// KRAJ I NAJPOPULARNIEJSZY JEZYK
+db.forms.aggregate([
+    {"$group" : {_id:{Q3:"$Q3",Q8:"$Q8"}, count:{$sum:1}}}, {$sort:{"count":-1}}
+])
+
+db.forms.deleteMany({ "Q8": ''})
+
+// ILOSC FORMULARZY Z KRAJU
+db.forms.aggregate([
+    {"$group" : {_id:{Q3:"$Q3"}, count:{$sum:1}}}, {$sort:{"count":-1}}
+])
