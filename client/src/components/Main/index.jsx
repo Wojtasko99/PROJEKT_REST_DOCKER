@@ -18,7 +18,10 @@ const Main = () => {
     const [items,setItems] = useState([]);
     const fetchForm = async () => {
         console.log("inside handleGetJson");
-        const data = await fetch("/fetchData");
+        const data = await fetch("http://localhost:8080/api/forms/fetchData");
+        console.log(data);
+        JSON.parse(data);
+        console.log(data);
         const items = await data.json();
         setItems(items);
     }

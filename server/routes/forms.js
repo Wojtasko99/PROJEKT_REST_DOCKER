@@ -10,14 +10,14 @@ router.post('/', async (req, res) => {
 });
 
 router.get('/fetchData', async (req, res) => {
-    const forms = Form.Forms;
+    const forms = Form.Forms
 
     const data = await forms.find({}).exec((err, formsData) => {
-        if(err) throw err;
+        
         if(formsData){
-            res.end(JSON.stringify(formsData));
+            res.send(JSON.stringify(formsData));
         } else{
-            res.end();
+            res.send();
         }
     })
 });
