@@ -31,6 +31,10 @@ const Form = () => {
         window.location = "/form"
     }
 
+    const handleExport = () => {
+        window.location = "/export"
+    }
+
     const handleMain = () => {
         window.location = "/"
     }
@@ -61,6 +65,9 @@ const Form = () => {
                     </button>
                     <button className={styles.white_btn} onClick={handleLogout}>
                         Logout
+                    </button>
+                    <button className={styles.white_btn} onClick={handleExport}>
+                        Export JSON
                     </button>
                 </div>
             </nav>
@@ -148,7 +155,7 @@ const Form = () => {
                         required
                         className={styles.input}
                     />
-                    
+
                     {error && <div
                         className={styles.error_msg}>{error}</div>}
                     <div>
@@ -162,10 +169,10 @@ const Form = () => {
                             onClick={handleReset}>
                             Reset
                         </button>
-            
+
                     </div>
                 </form>
-                
+
             </div>
         </div>
 

@@ -3,6 +3,7 @@ import Main from "./components/Main"
 import Signup from "./components/Signup"
 import Login from "./components/Login"
 import Form from "./components/Form"
+import Export from "./components/Export"
 function App() {
   const user = localStorage.getItem("token")
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/" element={<Navigate replace to="/login" />} />
       {user && <Route path="/form" exact element={<Form />} />}
       <Route path="/form" element={<Navigate replace to="/login" />} />
+      {user && <Route path="/export" exact element={<Export />} />}
     </Routes>
   )
 }
