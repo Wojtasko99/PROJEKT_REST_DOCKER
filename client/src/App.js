@@ -15,6 +15,7 @@ function App() {
       {user && <Route path="/form" exact element={<Form />} />}
       <Route path="/form" element={<Navigate replace to="/login" />} />
       {user && <Route path="/export" exact element={<Export />} />}
+      <Route path="/export" element={<Navigate replace to="/login" />} />
     </Routes>
   )
 }

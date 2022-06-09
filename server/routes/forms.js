@@ -9,16 +9,13 @@ router.post('/', async (req, res) => {
     }
 });
 
-router.get('/fetchData', async (req, res) => {
-    const forms = Form.Forms
-
-    const data = await forms.find({}).exec((err, formsData) => {
-        
-        if(formsData){
-            res.send(JSON.stringify(formsData));
-        } else{
-            res.send();
+router.route('/fetchData').get((req, res) => {
+    Form.Forms.find((error, data) => {
+        if (error) {
+            return next(error)
+        } else {
+            res.json(data)
         }
     })
-});
+})
 module.exports = router
