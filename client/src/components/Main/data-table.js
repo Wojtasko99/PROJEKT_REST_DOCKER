@@ -5,13 +5,10 @@ class DataTable extends Component {
         return (
             <tr>
                 <td>
-                    1
+                    {this.props.obj._id.Q3}
                 </td>
                 <td>
-                    {this.props.obj.Q1}
-                </td>
-                <td>
-                    {this.props.obj.Q2}
+                    {this.props.obj.count}
                 </td>
                 <td>
                     {this.props.obj.Q3}

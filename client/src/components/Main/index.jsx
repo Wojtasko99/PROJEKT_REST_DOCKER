@@ -68,7 +68,6 @@ export default class Users extends Component {
                     <Table striped bordered hover size="sm">
                         <thead className="thead-dark">
                             <tr>
-                                <th>#</th>
                                 <th>Sex</th>
                                 <th>Age</th>
                                 <th>Region</th>
