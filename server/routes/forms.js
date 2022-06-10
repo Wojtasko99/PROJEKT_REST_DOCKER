@@ -11,7 +11,7 @@ router.post('/', async (req, res) => {
 });
 
 router.route('/fetchData').get((req, res) => {
-    const aggr = [{"$group" : {_id:{Q3:"$Q3"}, count:{$sum:1}}}, {$sort:{"count":-1}}]
+    const aggr = [{"$group" : {_id:{Q3:"$Q3",Q8:"$Q8"}, count:{$sum:1}}}, {$sort:{"count":-1}}]
     Form.Forms.aggregate(aggr).exec((error, data) => {
         if (error) {
             return next(error)
