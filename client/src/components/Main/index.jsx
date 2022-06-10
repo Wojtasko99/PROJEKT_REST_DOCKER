@@ -65,6 +65,13 @@ export default class Users extends Component {
                     </div>
                 </nav>
                 <div className="container">
+                    <form>
+                    <select name="select" required>
+                        <option value="languages">Most popular languages i regions of world.</option>
+                        <option value="languages_age">Most popular languages based on the age.</option>
+                        <option value="languages_degree">Most popular languages based on degree.</option>
+                    </select>
+                    </form>
                     <Table striped bordered hover size="sm">
                         <thead className="thead-dark">
                             <tr>
