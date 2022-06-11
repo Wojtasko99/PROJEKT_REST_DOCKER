@@ -85,10 +85,10 @@ export default class Users extends Component {
                 </nav>
                 <div className="container">
                     <form>
-                    <select name="select" onChange={this.handleChange} required>
+                    <select name="select" className={styles.select} onChange={this.handleChange} required>
                         <option value="languages_sex">Most popular languages based on sex.</option>
                         <option value="languages_age">Most popular languages based on the age.</option>
-                        <option value="languages">Most popular languages i regions of world.</option>
+                        <option value="languages">Most popular languages based on region of the world.</option>
                         <option value="languages_degree">Most popular languages based on degree.</option>
                         
                     </select>

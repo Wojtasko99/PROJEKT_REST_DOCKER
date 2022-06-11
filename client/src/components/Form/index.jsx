@@ -41,7 +41,7 @@ const Form = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-            const url = "http://localhost:8080/api/forms"
+            const url = "http://localhost:8080/api/forms/postData/data"
             const { data: res } = await axios.post(url, data)
             handleReset()
             console.log(res.message)
@@ -75,7 +75,7 @@ const Form = () => {
             <div className={styles.main_container}>
                 <form id="form" className={styles.form_container}
                     onSubmit={handleSubmit}>
-                    <h1>Wypełnij formularz</h1>
+                    <h1>Complete form</h1>
                     <div className={styles.text}>What is your gender?</div>
                     <select name="Q1" className={styles.select} onChange={handleChange} required>
                         <option value="Male">Male</option>
