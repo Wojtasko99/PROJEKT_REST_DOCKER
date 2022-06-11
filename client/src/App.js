@@ -8,10 +8,13 @@ import Age from "./components/Languages_age"
 import Degree from "./components/Languages_degree"
 import Sex from "./components/Languages_sex"
 
+//Blokada wejscia na strone nieuprawnionym uzytkownikom
+
 function App() {
   const user = localStorage.getItem("token")
   return (
     <Routes>
+      
       {user && <Route path="/" exact element={<Main />} />}
       <Route path="/signup" exact element={<Signup />} />
       <Route path="/login" exact element={<Login />} />

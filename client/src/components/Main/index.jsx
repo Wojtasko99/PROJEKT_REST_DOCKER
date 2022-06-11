@@ -24,7 +24,7 @@ const handleMain = () => {
 }
 
 
-
+//Wyswietlenie danych z bazy
 export default class Users extends Component {
 
     constructor(props) {
@@ -45,6 +45,7 @@ export default class Users extends Component {
         this.getData()
     }
     dataTable() {
+        //Mapowanie obiektow pobranych z bazy danych
         return this.state.usersCollection.map((data, i) => {
             return <DataTable obj={data} key={i} />;
         });
