@@ -1,7 +1,6 @@
 // KRAJ I NAJPOPULARNIEJSZY JEZYK
-db.forms.aggregate([
-    {"$group" : {_id:{Q3:"$Q3",Q8:"$Q8"}, count:{$sum:1}}}, {$sort:{"count":-1}}
-])
+db.forms.aggregate(
+[{"$group" : {_id:{Q3:"$Q3",Q8:"$Q8"}, count:{$sum:1}}},{$sort:{"count":-1}}])
 
 db.forms.deleteMany({ "Q8": ''})
 
@@ -9,3 +8,68 @@ db.forms.deleteMany({ "Q8": ''})
 db.forms.aggregate([
     {"$group" : {_id:{Q3:"$Q3"}, count:{$sum:1}}}, {$sort:{"count":-1}}
 ])
+
+db.forms.aggregate(
+[{"$group" : {_id:{Q3:"$Q3",Q8: {$first: "$Q3"}}, count:{$sum:1}}}, {$sort:{"count":-1}},{$group:{_id:"_id.Q3"}}])
+
+db.forms.aggregate([ 
+{$group:{_id:{"Q3" : "$Q3"},uniqueCount: {$addToSet: "$Q3"}}}} 
+])
+
+db.wypozyczenie.aggregate([{$group : {_id : "$uzytkownik", wypozyczenie: {$sum : 1}}}]).pretty()
+
+db.forms.aggregate(
+[
+{"$group" : {_id:{Q3:"$Q3",Q8:"$Q8"}, count:{$sum:1}}}, {uniqueValues: {$Q3: "$Q3"}}, {$sort:{"count":-1}}
+])
+
+db.forms.aggregate([{
+    $group: {_id: Q8: "$Q8", uniqueValues: {$addToSet: "$Q3"}}
+}])
+
+                                <th>Sex</th>
+                                <th>Age</th>
+                                <th>Region</th>
+                                <th>Degree</th>
+                                <th>Major</th>
+                                <th>Current role</th>
+                                <th>Industry</th>
+                                <th>Programming Language</th>
+
+db.forms.aggregate(
+[
+    {$sort: {Q1: 1}},
+    {$limit: 1},
+    {$group: {_id: {Q3: "$Q3", Q8: "$Q8"},
+        count:{$sum:1}}},
+    {$sort: {_id: 1}}
+])
+
+db.forms.aggregate([
+
+    {$project:{
+        id: "$Q3", count: {$sum: 1} }
+    }},
+    {$group: {
+        _id: null, 
+        max: { $max: "$count" }
+    }}
+])
+
+db.forms.aggregate(
+[{"$group" : {_id:{Q3:"$Q3",Q8:"$Q8"}, count:{$sum:1}}},{$sort:{"count":-1}}])
+
+db.zips.aggregate([ 
+    {$group:{_id:{city:'$city', state:'$state'}, numberOfzipcodes:{$sum:1}}}, 
+    {$sort:{numberOfzipcodes:-1}},
+    {$group:{_id:'$_id.state', city:{$first:'$_id.city'}, 
+              numberOfzipcode:{$first:'$numberOfzipcodes'}}}
+]);
+
+db.forms.aggregate([ 
+        {$group:{_id:{Q3:'$Q3', Q8:'$Q8'}, count:{$sum:1}}}, 
+        {$sort:{count: -1}},
+        {$group:{_id:{Q3: '$_id.Q3'}, Q8:{$first:'$_id.Q8'}, 
+        count:{$first:'$count'}}},
+        {$sort:{_id: 1}}
+    ]);

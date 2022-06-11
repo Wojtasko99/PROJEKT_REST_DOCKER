@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0-beta1",
+    "git": "^0.1.5",
     "install": "^0.13.0",
     "npm": "^8.12.1",
     "react": "^18.1.0",

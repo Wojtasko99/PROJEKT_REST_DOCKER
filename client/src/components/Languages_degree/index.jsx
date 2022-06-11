@@ -32,7 +32,7 @@ export default class Users extends Component {
         this.state = { usersCollection: []};
     }
     getData(){
-        const url = "http://localhost:8080/api/forms/fetchData/language"
+        const url = "http://localhost:8080/api/forms/fetchData/language_degree"
         axios.get(url)
             .then(res => {
                 this.setState({ usersCollection: res.data });
@@ -56,8 +56,6 @@ export default class Users extends Component {
             window.location = "/"
         }else if(sort === "languages_age"){
             window.location = "/languages_age"
-        }else if(sort === "languages_degree"){
-            window.location = "/languages_degree"
         }else if(sort === "languages_sex"){
             window.location = "/languages_sex"
         }
@@ -83,19 +81,19 @@ export default class Users extends Component {
 
                     </div>
                 </nav>
-                <div className='container'>
+                <div className="container">
                     <form>
                     <select name="select" className={styles.select} onChange={this.handleChange} required>
+                        <option value="languages_degree">Most popular languages based on degree.</option>
                         <option value="languages">Most popular languages based on region of the world.</option>
                         <option value="languages_age">Most popular languages based on the age.</option>
-                        <option value="languages_degree">Most popular languages based on degree.</option>
                         <option value="languages_sex">Most popular languages based on sex.</option>
                     </select>
                     </form>
                     <Table striped bordered hover size="sm">
                         <thead className="thead-dark">
                             <tr>
-                                <th>Region</th>
+                                <th>Degree</th>
                                 <th>Language</th>
                                 <th>Votes</th>
                             </tr>

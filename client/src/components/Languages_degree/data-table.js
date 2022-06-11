@@ -5,7 +5,7 @@ class DataTable extends Component {
         return (
             <tr>
                 <td>
-                    {this.props.obj._id.Q3}
+                    {this.props.obj._id.Q4}
                 </td>
                 <td>
                     {this.props.obj.Q8}

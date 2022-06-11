@@ -29,10 +29,10 @@ export default class Users extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { usersCollection: []};
+        this.state = { usersCollection: [], sort: "languages_age"};
     }
     getData(){
-        const url = "http://localhost:8080/api/forms/fetchData/language"
+        const url = "http://localhost:8080/api/forms/fetchData/language_age"
         axios.get(url)
             .then(res => {
                 this.setState({ usersCollection: res.data });
@@ -41,8 +41,10 @@ export default class Users extends Component {
                 console.log(error);
             })
     }
+    
     componentDidMount() {
         this.getData()
+        
     }
     dataTable() {
         return this.state.usersCollection.map((data, i) => {
@@ -54,12 +56,10 @@ export default class Users extends Component {
         const sort = e.target.value;
         if(sort === "languages"){
             window.location = "/"
-        }else if(sort === "languages_age"){
-            window.location = "/languages_age"
-        }else if(sort === "languages_degree"){
-            window.location = "/languages_degree"
         }else if(sort === "languages_sex"){
             window.location = "/languages_sex"
+        }else if(sort === "languages_degree"){
+            window.location = "/languages_degree"
         }
     }
 
@@ -83,11 +83,11 @@ export default class Users extends Component {
 
                     </div>
                 </nav>
-                <div className='container'>
+                <div className="container">
                     <form>
                     <select name="select" className={styles.select} onChange={this.handleChange} required>
-                        <option value="languages">Most popular languages based on region of the world.</option>
                         <option value="languages_age">Most popular languages based on the age.</option>
+                        <option value="languages">Most popular languages based on region of the world.</option>
                         <option value="languages_degree">Most popular languages based on degree.</option>
                         <option value="languages_sex">Most popular languages based on sex.</option>
                     </select>
@@ -95,7 +95,7 @@ export default class Users extends Component {
                     <Table striped bordered hover size="sm">
                         <thead className="thead-dark">
                             <tr>
-                                <th>Region</th>
+                                <th>Age</th>
                                 <th>Language</th>
                                 <th>Votes</th>
                             </tr>
