@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   mongodb:
-    image: mongo
+    build: ./mongo
     volumes:
       - data:/data/db
     ports:
@@ -20,6 +20,9 @@ services:
       - mongodb
     networks:
       - mern-app
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/projekt
+    restart: always
   client:
     build: ./client
     ports:
@@ -29,10 +32,6 @@ services:
     stdin_open: true
     networks:
       - mern-app
-  mongo_import:
-    build: "./mongo-import"
-    links:
-      - mongodb
 networks:
   mern-app:
     driver: bridge
