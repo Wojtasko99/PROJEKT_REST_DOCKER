@@ -4,7 +4,7 @@ const Form = require("../models/form.js")
 //Pobieranie danych z bazy
 router.route('/postData/data').post((req, res) => {
     try {
-        new Form.Forms({ ...req.body }).save()
+        await new Form({ ...req.body }).save()
         res.status(201).send({ message: "Dodano dane" })
     } catch (error) {
         res.status(500).send({ message: "Internal Server Error" })
