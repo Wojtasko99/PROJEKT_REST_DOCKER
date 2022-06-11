@@ -2,7 +2,6 @@ Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8
 Male,35-39,United States of America,Master's degree,Social sciences (anthropology  psychology  sociology  etc.),Not employed,,Python
 Male,22-24,India,Master's degree,Mathematics or statistics,Data Analyst,I am a student,SQL
 Female,30-34,United States of America,Master's degree,Computer science (software engineering  etc.),Data Scientist,I am a student,Java
-What is your gender? - Selected Choice,What is your age (# years)?,In which country do you currently reside?,What is the highest level of formal education that you have attained or plan to attain within the next 2 years?,Which best describes your undergraduate major? - Selected Choice,Select the title most similar to your current role (or most recent title if retired): - Selected Choice,In what industry is your current employer/contract (or your most recent employer if retired)? - Selected Choice,What specific programming language do you use most often? - Selected Choice
 Male,25-29,Colombia,Bachelor's degree,Physics or astronomy,Data Scientist,Computers/Technology,Javascript/Typescript
 Male,25-29,Turkey,Master's degree,Engineering (non-computer focused),Not employed,,Python
 Male,30-34,Hungary,Master's degree,Engineering (non-computer focused),Software Engineer,Online Service/Internet-based Services,C#/.NET
