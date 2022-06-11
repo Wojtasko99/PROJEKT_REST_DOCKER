@@ -8,7 +8,7 @@ class DataTable extends Component {
                     {this.props.obj._id.Q3}
                 </td>
                 <td>
-                    {this.props.obj._id.Q8}
+                    {this.props.obj.Q8}
                 </td>
                 <td>
                     {this.props.obj.count}
