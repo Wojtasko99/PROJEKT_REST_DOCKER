@@ -1,42 +1,47 @@
 import styles from "./styles.module.css";
 import React, { useEffect, useState } from 'react';
+import axios from "axios"
 
 const Export = () => {
+    const [data, setData] = useState({ email: "", password: "" })
+    const [error, setError] = useState("")
+
+    const handleMain = () => {
+        window.location = "/main"
+    }
+
+    const handleForm = () => {
+        window.location = "/form"
+    }
+
     const handleLogout = () => {
         localStorage.removeItem("token")
         window.location.reload()
     }
-    const handleForm = () => {
-        window.location = "/form"
-    }
-    const handleMain = () => {
-        window.location = "/"
-    }
+
     const handleExport = () => {
         window.location = "/export"
     }
-    useEffect(() => {
-        fetchForm();
-    }, []);
 
-    const [items, setItems] = useState([]);
-    const fetchForm = async () => {
-        console.log("inside handleGetJson");
-        const data = await fetch("/fetchData");
-        const items = await data.json();
-        setItems(items);
-    }
-
-    const handleChange = () => {
-
-    }
+    const handleChange = e => {
+        setData({ ...data, [e.target.name]: e.target.value })
+    };
 
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-            const url = "http://localhost:8080/api/forms"
+            const url = "http://localhost:8080/api/saveFile"
+            const { data: res } = await axios.post(url, data)
+            localStorage.setItem("fileName", res.data)
+            window.location = "/"
         } catch (error) {
-            console.log(error)
+            if (
+                error.response &&
+                error.response.status >= 400 &&
+                error.response.status <= 500
+            ) {
+                setError(error.response.data.message)
+            }
         }
     }
 
@@ -59,7 +64,7 @@ const Export = () => {
             <div className={styles.main_container}>
                 <form id="form" className={styles.form_container} onSubmit={handleSubmit}>
                     <label htmlFor="fileName">File name: </label>
-                    <input type="text" name="fileName" id="fileName" />
+                    <input type="text" name="fileName" id="fileName" onChange={handleChange} />
                     <button type="submit"
                         className={styles.green_btn}>
                         Save
