@@ -6,6 +6,7 @@ const connection = require('./db')
 const userRoutes = require("./routes/users")
 const authRoutes = require("./routes/auth")
 const fromRoutes = require("./routes/forms")
+const saveFile = require("./routes/saveFile")
 
 //middleware
 app.use(express.json())
@@ -16,3 +17,4 @@ connection()
 app.use("/api/users", userRoutes)
 app.use("/api/auth", authRoutes)
 app.use("/api/forms", fromRoutes)
+app.use("/api/saveFile", saveFile)
