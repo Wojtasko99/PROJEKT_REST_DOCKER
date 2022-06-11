@@ -1,12 +1,12 @@
 import { Route, Routes, Navigate } from "react-router-dom"
-import Main from "./components/Main"
+import Main from "./components/Main" 
 import Signup from "./components/Signup"
 import Login from "./components/Login"
 import Form from "./components/Form"
 import Export from "./components/Export"
 import Age from "./components/Languages_age"
 import Degree from "./components/Languages_degree"
-import Sex from "./components/Languages_sex"
+import Sex from "./components/Languages_sex" 
 
 //Blokada wejscia na strone nieuprawnionym uzytkownikom
 
@@ -14,7 +14,6 @@ function App() {
   const user = localStorage.getItem("token")
   return (
     <Routes>
-      
       {user && <Route path="/" exact element={<Main />} />}
       <Route path="/signup" exact element={<Signup />} />
       <Route path="/login" exact element={<Login />} />

@@ -8,6 +8,8 @@ services:
       - "27017:27017"
     networks:
       - mern-app
+    command: 
+      - /import.sh
   server:
     build: ./server
     ports:
@@ -20,8 +22,6 @@ services:
       - mongodb
     networks:
       - mern-app
-    environment:
-      - MONGO_URI=mongodb://mongodb:27017/projekt
     restart: always
   client:
     build: ./client

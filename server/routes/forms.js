@@ -1,10 +1,11 @@
 const router = require("express").Router()
 const { json } = require("express");
 const Form = require("../models/form.js")
+
 //Pobieranie danych z bazy
 router.route('/postData/data').post((req, res) => {
     try {
-        await new Form({ ...req.body }).save()
+        new Form.Forms({ ...req.body }).save()
         res.status(201).send({ message: "Dodano dane" })
     } catch (error) {
         res.status(500).send({ message: "Internal Server Error" })
