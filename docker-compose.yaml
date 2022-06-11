@@ -1,13 +1,6 @@
-version: "2"
+version: "3"
 services:
-  mongodb:
-    build: ./mongo
-    volumes:
-      - data:/data/db
-    ports:
-      - "27017:27017"
-    networks:
-      - mern-app
+  
   server:
     build: ./server
     ports:
@@ -28,6 +21,14 @@ services:
     volumes:
       - ./client/src:/app/src
     stdin_open: true
+    networks:
+      - mern-app
+  mongodb:
+    build: ./mongo
+    volumes:
+      - data:/data/db
+    ports:
+      - "27017:27017"
     networks:
       - mern-app
 networks:
