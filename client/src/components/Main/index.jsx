@@ -14,14 +14,6 @@ const handleForm = () => {
     window.location = "/form"
 }
 
-const handleReset = () => {
-    window.location = "/form"
-}
-
-const handleExport = () => {
-    window.location = "/export"
-}
-
 const handleMain = () => {
     window.location = "/"
 }

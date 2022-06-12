@@ -110,6 +110,27 @@ router.post('/languages_sex', async (req, res) => {
     });
 });
 
+router.post('/languages_region_age', async (req, res) => {
+    client.connect(function (err) {
+        console.log('Connected successfully to server');
+
+        const db = client.db(dbName);
+
+        getRegionAge(db, function (docs) {
+            console.log('Closing connection.');
+            client.close();
+
+            try {
+                fs.writeFileSync('languages_region_age.json', JSON.stringify(docs));
+                console.log('Done writing to file.');
+                res.status(201).send({ message: "Zapisano" })
+            } catch (err) {
+                console.log('Error writing to file', err);
+            }
+        });
+    });
+});
+
 const getAll = function (db, callback) {
     const query = {};
     db.collection("forms")
@@ -193,6 +214,28 @@ const getSex = function (db, callback) {
         {
             $group: {
                 _id: { Q1: '$_id.Q1' }, Q8: { $first: '$_id.Q8' },
+                count: { $first: '$count' }
+            }
+        },
+        { $sort: { _id: 1 } }
+    ]
+
+    Form.Forms.aggregate(aggr).exec((error, data) => {
+        if (error) {
+            return next(error)
+        } else {
+            callback(data)
+        }
+    })
+};
+
+const getRegionAge = function (db, callback) {
+    const aggr = [
+        { $group: { _id: { Q3: '$Q3', Q2: '$Q2', Q8: '$Q8' }, count: { $sum: 1 } } },
+        { $sort: { count: -1 } },
+        {
+            $group: {
+                _id: { Q3: '$_id.Q3', Q2: '$_id.Q2' }, Q8: { $first: '$_id.Q8' },
                 count: { $first: '$count' }
             }
         },

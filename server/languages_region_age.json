@@ -1,0 +1,4234 @@
+[
+    {
+        "_id": {
+            "Q3": "Argentina",
+            "Q2": "18-21"
+        },
+        "Q8": "Javascript/Typescript",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Argentina",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Argentina",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "Argentina",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Argentina",
+            "Q2": "35-39"
+        },
+        "Q8": "Java",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Argentina",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Argentina",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Argentina",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Australia",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Australia",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 11
+    },
+    {
+        "_id": {
+            "Q3": "Australia",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 21
+    },
+    {
+        "_id": {
+            "Q3": "Australia",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 27
+    },
+    {
+        "_id": {
+            "Q3": "Australia",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 11
+    },
+    {
+        "_id": {
+            "Q3": "Australia",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Australia",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Australia",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Australia",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Australia",
+            "Q2": "60-69"
+        },
+        "Q8": "Visual Basic/VBA",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Austria",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Austria",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Austria",
+            "Q2": "25-29"
+        },
+        "Q8": "R",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Austria",
+            "Q2": "30-34"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Austria",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Austria",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Austria",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Austria",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Austria",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Bangladesh",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Bangladesh",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 17
+    },
+    {
+        "_id": {
+            "Q3": "Bangladesh",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Bangladesh",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Bangladesh",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Bangladesh",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Bangladesh",
+            "Q2": "45-49"
+        },
+        "Q8": "SQL",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Belarus",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Belarus",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Belarus",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Belarus",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Belarus",
+            "Q2": "35-39"
+        },
+        "Q8": "R",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Belarus",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Belarus",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Belarus",
+            "Q2": "60-69"
+        },
+        "Q8": "MATLAB",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Belgium",
+            "Q2": "18-21"
+        },
+        "Q8": "MATLAB",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Belgium",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Belgium",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Belgium",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Belgium",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Belgium",
+            "Q2": "40-44"
+        },
+        "Q8": "Java",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Belgium",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Belgium",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Belgium",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Belgium",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Brazil",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 31
+    },
+    {
+        "_id": {
+            "Q3": "Brazil",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 51
+    },
+    {
+        "_id": {
+            "Q3": "Brazil",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 76
+    },
+    {
+        "_id": {
+            "Q3": "Brazil",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 54
+    },
+    {
+        "_id": {
+            "Q3": "Brazil",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 22
+    },
+    {
+        "_id": {
+            "Q3": "Brazil",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 13
+    },
+    {
+        "_id": {
+            "Q3": "Brazil",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 12
+    },
+    {
+        "_id": {
+            "Q3": "Brazil",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Brazil",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Brazil",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Brazil",
+            "Q2": "70-79"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Canada",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 16
+    },
+    {
+        "_id": {
+            "Q3": "Canada",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 36
+    },
+    {
+        "_id": {
+            "Q3": "Canada",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 57
+    },
+    {
+        "_id": {
+            "Q3": "Canada",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 42
+    },
+    {
+        "_id": {
+            "Q3": "Canada",
+            "Q2": "35-39"
+        },
+        "Q8": "SQL",
+        "count": 11
+    },
+    {
+        "_id": {
+            "Q3": "Canada",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 16
+    },
+    {
+        "_id": {
+            "Q3": "Canada",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Canada",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 13
+    },
+    {
+        "_id": {
+            "Q3": "Canada",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Canada",
+            "Q2": "60-69"
+        },
+        "Q8": "C#/.NET",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Chile",
+            "Q2": "18-21"
+        },
+        "Q8": "Java",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Chile",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Chile",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Chile",
+            "Q2": "30-34"
+        },
+        "Q8": "R",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Chile",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Chile",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Chile",
+            "Q2": "45-49"
+        },
+        "Q8": "R",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Chile",
+            "Q2": "55-59"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Chile",
+            "Q2": "60-69"
+        },
+        "Q8": "C#/.NET",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "China",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 80
+    },
+    {
+        "_id": {
+            "Q3": "China",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 236
+    },
+    {
+        "_id": {
+            "Q3": "China",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 177
+    },
+    {
+        "_id": {
+            "Q3": "China",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 52
+    },
+    {
+        "_id": {
+            "Q3": "China",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 20
+    },
+    {
+        "_id": {
+            "Q3": "China",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "China",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "China",
+            "Q2": "50-54"
+        },
+        "Q8": "Javascript/Typescript",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "China",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "China",
+            "Q2": "70-79"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Colombia",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Colombia",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Colombia",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Colombia",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "Colombia",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Colombia",
+            "Q2": "40-44"
+        },
+        "Q8": "R",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Colombia",
+            "Q2": "45-49"
+        },
+        "Q8": "SQL",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Colombia",
+            "Q2": "50-54"
+        },
+        "Q8": "PHP",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Colombia",
+            "Q2": "55-59"
+        },
+        "Q8": "Java",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Colombia",
+            "Q2": "60-69"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Czech Republic",
+            "Q2": "18-21"
+        },
+        "Q8": "C#/.NET",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Czech Republic",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Czech Republic",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Czech Republic",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Czech Republic",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Czech Republic",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Czech Republic",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Czech Republic",
+            "Q2": "50-54"
+        },
+        "Q8": "C#/.NET",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Czech Republic",
+            "Q2": "60-69"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Denmark",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Denmark",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 11
+    },
+    {
+        "_id": {
+            "Q3": "Denmark",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 16
+    },
+    {
+        "_id": {
+            "Q3": "Denmark",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Denmark",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Denmark",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Denmark",
+            "Q2": "45-49"
+        },
+        "Q8": "R",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Denmark",
+            "Q2": "50-54"
+        },
+        "Q8": "SQL",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Denmark",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Denmark",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Egypt",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Egypt",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 12
+    },
+    {
+        "_id": {
+            "Q3": "Egypt",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Egypt",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Egypt",
+            "Q2": "35-39"
+        },
+        "Q8": "Java",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Egypt",
+            "Q2": "40-44"
+        },
+        "Q8": "SQL",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Egypt",
+            "Q2": "45-49"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Egypt",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Finland",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Finland",
+            "Q2": "22-24"
+        },
+        "Q8": "R",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Finland",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Finland",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Finland",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Finland",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Finland",
+            "Q2": "45-49"
+        },
+        "Q8": "MATLAB",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Finland",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Finland",
+            "Q2": "60-69"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "France",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "France",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 63
+    },
+    {
+        "_id": {
+            "Q3": "France",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 67
+    },
+    {
+        "_id": {
+            "Q3": "France",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 27
+    },
+    {
+        "_id": {
+            "Q3": "France",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 17
+    },
+    {
+        "_id": {
+            "Q3": "France",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 16
+    },
+    {
+        "_id": {
+            "Q3": "France",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "France",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "France",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "France",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "France",
+            "Q2": "70-79"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Germany",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 14
+    },
+    {
+        "_id": {
+            "Q3": "Germany",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 39
+    },
+    {
+        "_id": {
+            "Q3": "Germany",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 109
+    },
+    {
+        "_id": {
+            "Q3": "Germany",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 69
+    },
+    {
+        "_id": {
+            "Q3": "Germany",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 39
+    },
+    {
+        "_id": {
+            "Q3": "Germany",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 17
+    },
+    {
+        "_id": {
+            "Q3": "Germany",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Germany",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Germany",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Germany",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Germany",
+            "Q2": "70-79"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Greece",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Greece",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "Greece",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 15
+    },
+    {
+        "_id": {
+            "Q3": "Greece",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Greece",
+            "Q2": "35-39"
+        },
+        "Q8": "R",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Greece",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Greece",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Greece",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Greece",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Greece",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Hong Kong (S.A.R.)",
+            "Q2": "18-21"
+        },
+        "Q8": "Java",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Hong Kong (S.A.R.)",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Hong Kong (S.A.R.)",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Hong Kong (S.A.R.)",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Hong Kong (S.A.R.)",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Hong Kong (S.A.R.)",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Hong Kong (S.A.R.)",
+            "Q2": "50-54"
+        },
+        "Q8": "Java",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Hungary",
+            "Q2": "18-21"
+        },
+        "Q8": "Java",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Hungary",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Hungary",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Hungary",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Hungary",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Hungary",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Hungary",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Hungary",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Hungary",
+            "Q2": "70-79"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "I do not wish to disclose my location",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "I do not wish to disclose my location",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 30
+    },
+    {
+        "_id": {
+            "Q3": "I do not wish to disclose my location",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 27
+    },
+    {
+        "_id": {
+            "Q3": "I do not wish to disclose my location",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "I do not wish to disclose my location",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "I do not wish to disclose my location",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "I do not wish to disclose my location",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "I do not wish to disclose my location",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "I do not wish to disclose my location",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "I do not wish to disclose my location",
+            "Q2": "70-79"
+        },
+        "Q8": "Java",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "I do not wish to disclose my location",
+            "Q2": "80+"
+        },
+        "Q8": "PHP",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "India",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 486
+    },
+    {
+        "_id": {
+            "Q3": "India",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 416
+    },
+    {
+        "_id": {
+            "Q3": "India",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 330
+    },
+    {
+        "_id": {
+            "Q3": "India",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 166
+    },
+    {
+        "_id": {
+            "Q3": "India",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 71
+    },
+    {
+        "_id": {
+            "Q3": "India",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 42
+    },
+    {
+        "_id": {
+            "Q3": "India",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 21
+    },
+    {
+        "_id": {
+            "Q3": "India",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 13
+    },
+    {
+        "_id": {
+            "Q3": "India",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "India",
+            "Q2": "60-69"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Indonesia",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 11
+    },
+    {
+        "_id": {
+            "Q3": "Indonesia",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 11
+    },
+    {
+        "_id": {
+            "Q3": "Indonesia",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Indonesia",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Indonesia",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Indonesia",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Indonesia",
+            "Q2": "45-49"
+        },
+        "Q8": "PHP",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Indonesia",
+            "Q2": "55-59"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Iran  Islamic Republic of...",
+            "Q2": "18-21"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Iran  Islamic Republic of...",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Iran  Islamic Republic of...",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 16
+    },
+    {
+        "_id": {
+            "Q3": "Iran  Islamic Republic of...",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Iran  Islamic Republic of...",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Iran  Islamic Republic of...",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Ireland",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Ireland",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Ireland",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 11
+    },
+    {
+        "_id": {
+            "Q3": "Ireland",
+            "Q2": "30-34"
+        },
+        "Q8": "SQL",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Ireland",
+            "Q2": "35-39"
+        },
+        "Q8": "R",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Ireland",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Ireland",
+            "Q2": "45-49"
+        },
+        "Q8": "C/C++",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Ireland",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Israel",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Israel",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Israel",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 19
+    },
+    {
+        "_id": {
+            "Q3": "Israel",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 20
+    },
+    {
+        "_id": {
+            "Q3": "Israel",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 13
+    },
+    {
+        "_id": {
+            "Q3": "Israel",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Israel",
+            "Q2": "45-49"
+        },
+        "Q8": "C#/.NET",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Israel",
+            "Q2": "50-54"
+        },
+        "Q8": "SQL",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Israel",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Israel",
+            "Q2": "60-69"
+        },
+        "Q8": "MATLAB",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Israel",
+            "Q2": "70-79"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Italy",
+            "Q2": "18-21"
+        },
+        "Q8": "Java",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Italy",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 17
+    },
+    {
+        "_id": {
+            "Q3": "Italy",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 46
+    },
+    {
+        "_id": {
+            "Q3": "Italy",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 24
+    },
+    {
+        "_id": {
+            "Q3": "Italy",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Italy",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "Italy",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Italy",
+            "Q2": "50-54"
+        },
+        "Q8": "Java",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Italy",
+            "Q2": "55-59"
+        },
+        "Q8": "R",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Italy",
+            "Q2": "60-69"
+        },
+        "Q8": "Visual Basic/VBA",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Italy",
+            "Q2": "70-79"
+        },
+        "Q8": "Java",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Japan",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 11
+    },
+    {
+        "_id": {
+            "Q3": "Japan",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 25
+    },
+    {
+        "_id": {
+            "Q3": "Japan",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 54
+    },
+    {
+        "_id": {
+            "Q3": "Japan",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 31
+    },
+    {
+        "_id": {
+            "Q3": "Japan",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 21
+    },
+    {
+        "_id": {
+            "Q3": "Japan",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 13
+    },
+    {
+        "_id": {
+            "Q3": "Japan",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 18
+    },
+    {
+        "_id": {
+            "Q3": "Japan",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Japan",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Japan",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Japan",
+            "Q2": "70-79"
+        },
+        "Q8": "C/C++",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Kenya",
+            "Q2": "18-21"
+        },
+        "Q8": "R",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Kenya",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Kenya",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "Kenya",
+            "Q2": "30-34"
+        },
+        "Q8": "R",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Kenya",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Kenya",
+            "Q2": "40-44"
+        },
+        "Q8": "Java",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Kenya",
+            "Q2": "45-49"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Kenya",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Kenya",
+            "Q2": "55-59"
+        },
+        "Q8": "PHP",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Malaysia",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Malaysia",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "Malaysia",
+            "Q2": "25-29"
+        },
+        "Q8": "R",
+        "count": 11
+    },
+    {
+        "_id": {
+            "Q3": "Malaysia",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Malaysia",
+            "Q2": "35-39"
+        },
+        "Q8": "R",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Malaysia",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Malaysia",
+            "Q2": "45-49"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Malaysia",
+            "Q2": "50-54"
+        },
+        "Q8": "C/C++",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Mexico",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Mexico",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "Mexico",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 27
+    },
+    {
+        "_id": {
+            "Q3": "Mexico",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Mexico",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "Mexico",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Mexico",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Mexico",
+            "Q2": "50-54"
+        },
+        "Q8": "R",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Mexico",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Mexico",
+            "Q2": "60-69"
+        },
+        "Q8": "SQL",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Morocco",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Morocco",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 12
+    },
+    {
+        "_id": {
+            "Q3": "Morocco",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Morocco",
+            "Q2": "30-34"
+        },
+        "Q8": "SQL",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Morocco",
+            "Q2": "35-39"
+        },
+        "Q8": "R",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Morocco",
+            "Q2": "40-44"
+        },
+        "Q8": "MATLAB",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Morocco",
+            "Q2": "45-49"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Morocco",
+            "Q2": "50-54"
+        },
+        "Q8": "Java",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Netherlands",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Netherlands",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 15
+    },
+    {
+        "_id": {
+            "Q3": "Netherlands",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 34
+    },
+    {
+        "_id": {
+            "Q3": "Netherlands",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 16
+    },
+    {
+        "_id": {
+            "Q3": "Netherlands",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 17
+    },
+    {
+        "_id": {
+            "Q3": "Netherlands",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Netherlands",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Netherlands",
+            "Q2": "50-54"
+        },
+        "Q8": "R",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Netherlands",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Netherlands",
+            "Q2": "60-69"
+        },
+        "Q8": "SQL",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "New Zealand",
+            "Q2": "18-21"
+        },
+        "Q8": "Java",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "New Zealand",
+            "Q2": "22-24"
+        },
+        "Q8": "R",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "New Zealand",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "New Zealand",
+            "Q2": "30-34"
+        },
+        "Q8": "SQL",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "New Zealand",
+            "Q2": "35-39"
+        },
+        "Q8": "SAS/STATA",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "New Zealand",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "New Zealand",
+            "Q2": "45-49"
+        },
+        "Q8": "Java",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "New Zealand",
+            "Q2": "50-54"
+        },
+        "Q8": "SQL",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "New Zealand",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "New Zealand",
+            "Q2": "60-69"
+        },
+        "Q8": "R",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Nigeria",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 15
+    },
+    {
+        "_id": {
+            "Q3": "Nigeria",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 13
+    },
+    {
+        "_id": {
+            "Q3": "Nigeria",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 13
+    },
+    {
+        "_id": {
+            "Q3": "Nigeria",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Nigeria",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Nigeria",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Nigeria",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Norway",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Norway",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 13
+    },
+    {
+        "_id": {
+            "Q3": "Norway",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Norway",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Norway",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Norway",
+            "Q2": "45-49"
+        },
+        "Q8": "SAS/STATA",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Norway",
+            "Q2": "50-54"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Norway",
+            "Q2": "55-59"
+        },
+        "Q8": "C#/.NET",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Other",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 20
+    },
+    {
+        "_id": {
+            "Q3": "Other",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 61
+    },
+    {
+        "_id": {
+            "Q3": "Other",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 92
+    },
+    {
+        "_id": {
+            "Q3": "Other",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 49
+    },
+    {
+        "_id": {
+            "Q3": "Other",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 32
+    },
+    {
+        "_id": {
+            "Q3": "Other",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 23
+    },
+    {
+        "_id": {
+            "Q3": "Other",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 14
+    },
+    {
+        "_id": {
+            "Q3": "Other",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Other",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Other",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Other",
+            "Q2": "70-79"
+        },
+        "Q8": "C#/.NET",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Other",
+            "Q2": "80+"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Pakistan",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Pakistan",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 19
+    },
+    {
+        "_id": {
+            "Q3": "Pakistan",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 17
+    },
+    {
+        "_id": {
+            "Q3": "Pakistan",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Pakistan",
+            "Q2": "35-39"
+        },
+        "Q8": "C/C++",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Pakistan",
+            "Q2": "40-44"
+        },
+        "Q8": "R",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Pakistan",
+            "Q2": "45-49"
+        },
+        "Q8": "SAS/STATA",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Peru",
+            "Q2": "18-21"
+        },
+        "Q8": "R",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Peru",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Peru",
+            "Q2": "25-29"
+        },
+        "Q8": "R",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Peru",
+            "Q2": "30-34"
+        },
+        "Q8": "Java",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Peru",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Peru",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Peru",
+            "Q2": "45-49"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Peru",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Philippines",
+            "Q2": "18-21"
+        },
+        "Q8": "Java",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Philippines",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Philippines",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Philippines",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Philippines",
+            "Q2": "35-39"
+        },
+        "Q8": "R",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Philippines",
+            "Q2": "40-44"
+        },
+        "Q8": "Java",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Philippines",
+            "Q2": "45-49"
+        },
+        "Q8": "C/C++",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Philippines",
+            "Q2": "50-54"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Philippines",
+            "Q2": "55-59"
+        },
+        "Q8": "Visual Basic/VBA",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Poland",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Poland",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 31
+    },
+    {
+        "_id": {
+            "Q3": "Poland",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 35
+    },
+    {
+        "_id": {
+            "Q3": "Poland",
+            "Q2": "30-34"
+        },
+        "Q8": "SQL",
+        "count": 13
+    },
+    {
+        "_id": {
+            "Q3": "Poland",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Poland",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Poland",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Poland",
+            "Q2": "50-54"
+        },
+        "Q8": "R",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Poland",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Portugal",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Portugal",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Portugal",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "Portugal",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Portugal",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Portugal",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Portugal",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Portugal",
+            "Q2": "50-54"
+        },
+        "Q8": "R",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Republic of Korea",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Republic of Korea",
+            "Q2": "22-24"
+        },
+        "Q8": "R",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Republic of Korea",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Republic of Korea",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Republic of Korea",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Republic of Korea",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Republic of Korea",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Republic of Korea",
+            "Q2": "50-54"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Republic of Korea",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Republic of Korea",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Romania",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Romania",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Romania",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Romania",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Romania",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Romania",
+            "Q2": "40-44"
+        },
+        "Q8": "C/C++",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Romania",
+            "Q2": "45-49"
+        },
+        "Q8": "R",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Romania",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Russia",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 55
+    },
+    {
+        "_id": {
+            "Q3": "Russia",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 70
+    },
+    {
+        "_id": {
+            "Q3": "Russia",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 97
+    },
+    {
+        "_id": {
+            "Q3": "Russia",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 54
+    },
+    {
+        "_id": {
+            "Q3": "Russia",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 25
+    },
+    {
+        "_id": {
+            "Q3": "Russia",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Russia",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Russia",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Russia",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Russia",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Russia",
+            "Q2": "70-79"
+        },
+        "Q8": "MATLAB",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Russia",
+            "Q2": "80+"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Singapore",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Singapore",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 17
+    },
+    {
+        "_id": {
+            "Q3": "Singapore",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 22
+    },
+    {
+        "_id": {
+            "Q3": "Singapore",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 13
+    },
+    {
+        "_id": {
+            "Q3": "Singapore",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Singapore",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Singapore",
+            "Q2": "45-49"
+        },
+        "Q8": "SQL",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "South Africa",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "South Africa",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 16
+    },
+    {
+        "_id": {
+            "Q3": "South Africa",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 20
+    },
+    {
+        "_id": {
+            "Q3": "South Africa",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 12
+    },
+    {
+        "_id": {
+            "Q3": "South Africa",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "South Africa",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "South Africa",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "South Africa",
+            "Q2": "50-54"
+        },
+        "Q8": "C#/.NET",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "South Africa",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "South Korea",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "South Korea",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "South Korea",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 30
+    },
+    {
+        "_id": {
+            "Q3": "South Korea",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "South Korea",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "South Korea",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "South Korea",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "South Korea",
+            "Q2": "50-54"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "South Korea",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "South Korea",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Spain",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 8
+    },
+    {
+        "_id": {
+            "Q3": "Spain",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 33
+    },
+    {
+        "_id": {
+            "Q3": "Spain",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 43
+    },
+    {
+        "_id": {
+            "Q3": "Spain",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 22
+    },
+    {
+        "_id": {
+            "Q3": "Spain",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 18
+    },
+    {
+        "_id": {
+            "Q3": "Spain",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 20
+    },
+    {
+        "_id": {
+            "Q3": "Spain",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 13
+    },
+    {
+        "_id": {
+            "Q3": "Spain",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Spain",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Sweden",
+            "Q2": "18-21"
+        },
+        "Q8": "Java",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Sweden",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Sweden",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 12
+    },
+    {
+        "_id": {
+            "Q3": "Sweden",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 16
+    },
+    {
+        "_id": {
+            "Q3": "Sweden",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Sweden",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Sweden",
+            "Q2": "45-49"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Sweden",
+            "Q2": "50-54"
+        },
+        "Q8": "SAS/STATA",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Sweden",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Sweden",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Switzerland",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Switzerland",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Switzerland",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 16
+    },
+    {
+        "_id": {
+            "Q3": "Switzerland",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 15
+    },
+    {
+        "_id": {
+            "Q3": "Switzerland",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Switzerland",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Switzerland",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "Switzerland",
+            "Q2": "50-54"
+        },
+        "Q8": "C#/.NET",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Switzerland",
+            "Q2": "55-59"
+        },
+        "Q8": "R",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Switzerland",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Thailand",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Thailand",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "Thailand",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Thailand",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Thailand",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Thailand",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Thailand",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Thailand",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Tunisia",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Tunisia",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Tunisia",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Tunisia",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Tunisia",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Turkey",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 11
+    },
+    {
+        "_id": {
+            "Q3": "Turkey",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 32
+    },
+    {
+        "_id": {
+            "Q3": "Turkey",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 30
+    },
+    {
+        "_id": {
+            "Q3": "Turkey",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 13
+    },
+    {
+        "_id": {
+            "Q3": "Turkey",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 17
+    },
+    {
+        "_id": {
+            "Q3": "Turkey",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Turkey",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 2
+    },
+    {
+        "_id": {
+            "Q3": "Turkey",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "Ukraine",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 21
+    },
+    {
+        "_id": {
+            "Q3": "Ukraine",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 11
+    },
+    {
+        "_id": {
+            "Q3": "Ukraine",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 19
+    },
+    {
+        "_id": {
+            "Q3": "Ukraine",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 9
+    },
+    {
+        "_id": {
+            "Q3": "Ukraine",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Ukraine",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 6
+    },
+    {
+        "_id": {
+            "Q3": "Ukraine",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Ukraine",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "United Kingdom of Great Britain and Northern Ireland",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 17
+    },
+    {
+        "_id": {
+            "Q3": "United Kingdom of Great Britain and Northern Ireland",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 48
+    },
+    {
+        "_id": {
+            "Q3": "United Kingdom of Great Britain and Northern Ireland",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 65
+    },
+    {
+        "_id": {
+            "Q3": "United Kingdom of Great Britain and Northern Ireland",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 67
+    },
+    {
+        "_id": {
+            "Q3": "United Kingdom of Great Britain and Northern Ireland",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 27
+    },
+    {
+        "_id": {
+            "Q3": "United Kingdom of Great Britain and Northern Ireland",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 13
+    },
+    {
+        "_id": {
+            "Q3": "United Kingdom of Great Britain and Northern Ireland",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 12
+    },
+    {
+        "_id": {
+            "Q3": "United Kingdom of Great Britain and Northern Ireland",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "United Kingdom of Great Britain and Northern Ireland",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "United Kingdom of Great Britain and Northern Ireland",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "United Kingdom of Great Britain and Northern Ireland",
+            "Q2": "70-79"
+        },
+        "Q8": "Visual Basic/VBA",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "United Kingdom of Great Britain and Northern Ireland",
+            "Q2": "80+"
+        },
+        "Q8": "R",
+        "count": 1
+    },
+    {
+        "_id": {
+            "Q3": "United States of America",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 117
+    },
+    {
+        "_id": {
+            "Q3": "United States of America",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 272
+    },
+    {
+        "_id": {
+            "Q3": "United States of America",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 448
+    },
+    {
+        "_id": {
+            "Q3": "United States of America",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 303
+    },
+    {
+        "_id": {
+            "Q3": "United States of America",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 166
+    },
+    {
+        "_id": {
+            "Q3": "United States of America",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 92
+    },
+    {
+        "_id": {
+            "Q3": "United States of America",
+            "Q2": "45-49"
+        },
+        "Q8": "Python",
+        "count": 66
+    },
+    {
+        "_id": {
+            "Q3": "United States of America",
+            "Q2": "50-54"
+        },
+        "Q8": "Python",
+        "count": 60
+    },
+    {
+        "_id": {
+            "Q3": "United States of America",
+            "Q2": "55-59"
+        },
+        "Q8": "Python",
+        "count": 44
+    },
+    {
+        "_id": {
+            "Q3": "United States of America",
+            "Q2": "60-69"
+        },
+        "Q8": "Python",
+        "count": 42
+    },
+    {
+        "_id": {
+            "Q3": "United States of America",
+            "Q2": "70-79"
+        },
+        "Q8": "Python",
+        "count": 5
+    },
+    {
+        "_id": {
+            "Q3": "United States of America",
+            "Q2": "80+"
+        },
+        "Q8": "Python",
+        "count": 3
+    },
+    {
+        "_id": {
+            "Q3": "Viet Nam",
+            "Q2": "18-21"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Viet Nam",
+            "Q2": "22-24"
+        },
+        "Q8": "Python",
+        "count": 16
+    },
+    {
+        "_id": {
+            "Q3": "Viet Nam",
+            "Q2": "25-29"
+        },
+        "Q8": "Python",
+        "count": 10
+    },
+    {
+        "_id": {
+            "Q3": "Viet Nam",
+            "Q2": "30-34"
+        },
+        "Q8": "Python",
+        "count": 7
+    },
+    {
+        "_id": {
+            "Q3": "Viet Nam",
+            "Q2": "35-39"
+        },
+        "Q8": "Python",
+        "count": 4
+    },
+    {
+        "_id": {
+            "Q3": "Viet Nam",
+            "Q2": "40-44"
+        },
+        "Q8": "Python",
+        "count": 1
+    }
+]

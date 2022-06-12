@@ -11,9 +11,6 @@ const handleLogout = () => {
 const handleForm = () => {
     window.location = "/form"
 }
-const handleReset = () => {
-    window.location = "/form"
-}
 
 const handleExport = () => {
     window.location = "/export"
@@ -23,15 +20,50 @@ const handleMain = () => {
     window.location = "/"
 }
 
+const handleExportAll = async (e) => {
+    console.log("export data")
+    e.preventDefault()
+    try {
+        const url = "http://localhost:8080/api/saveFile"
+        await axios.post(url)
+
+    } catch (error) {
+        if (
+            error.response &&
+            error.response.status >= 400 &&
+            error.response.status <= 500
+        ) {
+            console.log(error.response.data.message)
+        }
+    }
+}
+
+const handleExportCurrent = async (e) => {
+    console.log("export data")
+    e.preventDefault()
+    try {
+        const url = "http://localhost:8080/api/saveFile/languages_region_age"
+        await axios.post(url)
+
+    } catch (error) {
+        if (
+            error.response &&
+            error.response.status >= 400 &&
+            error.response.status <= 500
+        ) {
+            console.log(error.response.data.message)
+        }
+    }
+}
 
 //Wyswietlenie danych z bazy
 export default class Users extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { usersCollection: []};
+        this.state = { usersCollection: [] };
     }
-    getData(){
+    getData() {
         const url = "http://localhost:8080/api/forms/fetchData/language_regions-age"
         axios.get(url)
             .then(res => {
@@ -53,15 +85,15 @@ export default class Users extends Component {
 
     handleChange = e => {
         const sort = e.target.value;
-        if(sort === "languages"){
+        if (sort === "languages") {
             window.location = "/"
-        }else if(sort === "languages_age"){
+        } else if (sort === "languages_age") {
             window.location = "/languages_age"
-        }else if(sort === "languages_degree"){
+        } else if (sort === "languages_degree") {
             window.location = "/languages_degree"
-        }else if(sort === "languages_sex"){
+        } else if (sort === "languages_sex") {
             window.location = "/languages_sex"
-        }else if(sort === "languages_regions-age"){
+        } else if (sort === "languages_regions-age") {
             window.location = "/languages_regions-age"
         }
     }
@@ -88,13 +120,23 @@ export default class Users extends Component {
                 </nav>
                 <div className='container'>
                     <form>
-                    <select name="select" className={styles.select} onChange={this.handleChange} required>
-                        <option value="languages_regions-age">Most popular languages based on age in regions of the world.</option>
-                        <option value="languages">Most popular languages based on region of the world.</option>
-                        <option value="languages_age">Most popular languages based on the age.</option>
-                        <option value="languages_degree">Most popular languages based on degree.</option>
-                        <option value="languages_sex">Most popular languages based on sex.</option>
-                    </select>
+                        <select name="select" className={styles.select} onChange={this.handleChange} required>
+                            <option value="languages_regions-age">Most popular languages based on age in regions of the world.</option>
+                            <option value="languages">Most popular languages based on region of the world.</option>
+                            <option value="languages_age">Most popular languages based on the age.</option>
+                            <option value="languages_degree">Most popular languages based on degree.</option>
+                            <option value="languages_sex">Most popular languages based on sex.</option>
+                        </select>
+                    </form>
+                    <form id="form" className={styles.form_container} onSubmit={handleExportAll}>
+                        <button type="submit" className={styles.green_btn}>
+                            Export all
+                        </button>
+                    </form>
+                    <form id="form" className={styles.form_container} onSubmit={handleExportCurrent}>
+                        <button type="submit" className={styles.blue_btn}>
+                            Export current
+                        </button>
                     </form>
                     <Table striped bordered hover size="sm">
                         <thead className="thead-dark">
