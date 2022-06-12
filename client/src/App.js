@@ -6,6 +6,7 @@ import Form from "./components/Form"
 import Age from "./components/Languages_age"
 import Degree from "./components/Languages_degree"
 import Sex from "./components/Languages_sex"
+import RegionsAge from "./components/Languages_regions&age"
 
 //Blokada wejscia na strone nieuprawnionym uzytkownikom
 
@@ -25,6 +26,8 @@ function App() {
       <Route path="/languages_degree" element={<Navigate replace to="/login" />} />
       {user && <Route path="/languages_sex" exact element={<Sex />} />}
       <Route path="/languages_sex" element={<Navigate replace to="/login" />} />
+      {user && <Route path="/languages_regions-age" exact element={<RegionsAge />} />}
+      <Route path="/languages_regions-age" element={<Navigate replace to="/login" />} />
 
     </Routes>
   )

@@ -1,1 +1,0 @@
-docker exec nazwa_kon /import.sh

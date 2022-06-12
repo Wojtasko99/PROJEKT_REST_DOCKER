@@ -87,6 +87,8 @@ export default class Users extends Component {
             window.location = "/languages_age"
         } else if (sort === "languages_degree") {
             window.location = "/languages_degree"
+        } else if (sort === "languages_regions-age") {
+            window.location = "/languages_regions-age"
         }
     }
 
@@ -114,7 +116,7 @@ export default class Users extends Component {
                             <option value="languages_age">Most popular languages based on the age.</option>
                             <option value="languages">Most popular languages based on region of the world.</option>
                             <option value="languages_degree">Most popular languages based on degree.</option>
-
+                            <option value="languages_regions-age">Most popular languages based on age in regions of the world.</option>
                         </select>
                     </form>
                     <form id="form" className={styles.form_container} onSubmit={handleExportAll}>
