@@ -31,10 +31,6 @@ const Form = () => {
         window.location = "/form"
     }
 
-    const handleExport = () => {
-        window.location = "/export"
-    }
-
     const handleMain = () => {
         window.location = "/"
     }
@@ -63,13 +59,10 @@ const Form = () => {
                     <button className={styles.white_btn} onClick={handleForm}>
                         Formularz
                     </button>
-                    <button className={styles.white_btn} onClick={handleExport}>
-                        Export JSON
-                    </button>
                     <button className={styles.white_btn} onClick={handleLogout}>
                         Logout
                     </button>
-                    
+
                 </div>
             </nav>
             <div className={styles.main_container}>

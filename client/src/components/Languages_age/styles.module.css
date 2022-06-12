@@ -41,6 +41,7 @@
 	background-color: #edf5f3;
 	margin: 5px 0;
 	font-size: 14px;
+	float: left;
 }
 .dots-flow:before {
 	-webkit-animation: dots-flow .85s infinite ease;
@@ -82,3 +83,29 @@
 	65% {
 	  -webkit-box-shadow: -26px 32px 0px 0 white, 0px 32px 0 0 white, 26px 32px 0 4px purple;
 			  box-shadow: -26px 32px 0px 0 white, 0px 32px 0 0 white, 26px 32px 0 4px purple; } }
+
+.green_btn,
+.blue_btn{
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	float: right;
+}
+
+.green_btn {
+	background-color: #3bb19b;
+	color: white;
+	margin: 10px;
+}
+
+.blue_btn {
+	background-color: #4f79f9;
+	color: white;
+	margin: 10px;
+}

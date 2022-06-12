@@ -1,0 +1,30 @@
+[
+    {
+        "_id": {
+            "Q1": "Female"
+        },
+        "Q8": "Python",
+        "count": 1130
+    },
+    {
+        "_id": {
+            "Q1": "Male"
+        },
+        "Q8": "Python",
+        "count": 6935
+    },
+    {
+        "_id": {
+            "Q1": "Prefer not to say"
+        },
+        "Q8": "Python",
+        "count": 86
+    },
+    {
+        "_id": {
+            "Q1": "Prefer to self-describe"
+        },
+        "Q8": "Python",
+        "count": 29
+    }
+]
