@@ -109,9 +109,6 @@ export default class Users extends Component {
                         <button className={styles.white_btn} onClick={handleForm}>
                             Formularz
                         </button>
-                        <button className={styles.white_btn} onClick={handleExport}>
-                            Export JSON
-                        </button>
                         <button className={styles.white_btn} onClick={handleLogout}>
                             Logout
                         </button>

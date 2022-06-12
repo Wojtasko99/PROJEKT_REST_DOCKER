@@ -2,7 +2,7 @@ const router = require("express").Router()
 const MongoClient = require('mongodb').MongoClient;
 const fs = require('fs');
 const dbName = "projekt";
-const client = new MongoClient('mongodb://localhost:27017', { useUnifiedTopology: true });
+const client = new MongoClient('mongodb://mongodb:27017', { useUnifiedTopology: true });
 const Form = require("../models/form.js")
 
 router.post('/', async (req, res) => {
