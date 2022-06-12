@@ -1,11 +1,11 @@
 # PROJEKT ZALICZENIOWY - LABORATORIA INTEGRACJA SYSTEMÓW
 
-Rok akademicki: 2021/2022
-Semestr: 6
-Kierunek: Informatyka
-Przedmiot: Integracja systemów
-Grupa: IO 6.10
-Autorzy: Damian Wojtal, Michał Wrona
+Rok akademicki: 2021/2022 <br>
+Semestr: 6<br>
+Kierunek: Informatyka<br>
+Przedmiot: Integracja systemów<br>
+Grupa: IO 6.10<br>
+Autorzy: Damian Wojtal, Michał Wrona<br>
 
 TEMAT: POPULARNOŚĆ JĘZYKÓW PROGRAMOWANIA W ZALEŻNOŚCI OD WIEKU, PŁCI, REGIONU ZAMIESZKANIA I WYKSZTAŁCENIA
 
@@ -33,8 +33,8 @@ SPEŁNIONE WYMAGANIA POZA FUNKCJONALNE DO PROJEKTU:
 SPOSÓB URUCHOMIENIA PROJEKTU:
 1. Uruchomienie kontenerów poleceniem docker-compose up
 # Z POWODU NIEWYJAŚNIONYCH PRZYCZYN I PROBLEMÓW PRZY PIERWSZYM URUCHOMIENIU PROJEKTU NALEŻY URUCHOMIĆ SKRYPT ZNAJDUJĄCY SIĘ NA KONTENERZE MONGO O NAZWIE IMPORT.SH:
-2.1. Otworzyc nowy terminal
-2.2. Poleceniem docker ps -a sprawdzić nazwę kontenera MONGODB
-2.3. Uruchomić skrypt importujący dane poleceniem: docker exec nazwa_kontenera /import.sh
-3. Utworzyć nowe konto w celu używania serwisu.
-4. Zalogować się do serwisu.
+2.1. Otworzyc nowy terminal<br>
+2.2. Poleceniem docker ps -a sprawdzić nazwę kontenera MONGODB<br>
+2.3. Uruchomić skrypt importujący dane poleceniem: docker exec nazwa_kontenera /import.sh<br>
+3. Utworzyć nowe konto w celu używania serwisu.<br>
+4. Zalogować się do serwisu.<br>
